@@ -6,9 +6,9 @@
   import Button from '$lib/Button.svelte';
 </script>
 
-<section class="prose">
+<article class="prose">
   <h1>Button</h1>
-  <p>tailwindcss 를 이용하여 버튼 컴포넌트를 꾸미고 개발해보겠습니다.</p>
+  <p>tailwindcss 를 이용하여 버튼 컴포넌트를 꾸며서 목적에 맞게 재사용 해보려고 합니다.</p>
 
   <div>
     <Button>일반 버튼</Button>
@@ -31,7 +31,7 @@
     <Button href="https://naver.com" target="_blank">
       <span>외부 링크</span>
       <svg
-        class="w-4 h-4 text-zinc-600"
+        class="w-4 h-4"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -81,4 +81,4 @@
       <span>버튼</span>
     </Button>
   </div>
-</section>
+</article>

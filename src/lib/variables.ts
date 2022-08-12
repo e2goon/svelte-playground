@@ -1,0 +1,1 @@
+export const title = '스벨트 스터-디'
