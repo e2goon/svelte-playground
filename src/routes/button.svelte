@@ -6,25 +6,26 @@
   import Button from '$lib/Button.svelte';
 </script>
 
-<section>
-  <h1 class="my-4 font-bold text-2xl">Button</h1>
+<section class="prose">
+  <h1>Button</h1>
+  <p>tailwindcss 를 이용하여 버튼 컴포넌트를 꾸미고 개발해보겠습니다.</p>
 
   <div>
     <Button>일반 버튼</Button>
     <Button type="submit">Submit 버튼</Button>
   </div>
 
-  <h3 class="my-4 font-bold text-xl">a</h3>
+  <h3>a</h3>
   <div>
     <Button tag="a">속성 없는 a 태그</Button>
   </div>
 
-  <h3 class="my-4 font-bold text-xl">span</h3>
+  <h3>span</h3>
   <div>
     <Button tag="span">span 태그</Button>
   </div>
 
-  <h3 class="my-4 font-bold text-xl">anchor</h3>
+  <h3>anchor</h3>
   <div>
     <Button href="https://naver.com">외부 링크</Button>
     <Button href="https://naver.com" target="_blank">
@@ -49,7 +50,7 @@
     <Button href="#hash"># 해시 링크</Button>
   </div>
 
-  <h3 class="my-4 font-bold text-xl">icon + button</h3>
+  <h3>icon + button</h3>
   <div>
     <Button>
       <svg
