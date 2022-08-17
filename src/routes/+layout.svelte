@@ -1,9 +1,9 @@
 <script lang="ts">
+  import '$/app.css';
   import { page } from '$app/stores';
   import { title } from '$/variables';
-  import '$/app.css';
 
-  let links = [
+  const links = [
     { text: 'Home', href: '/' },
     { text: 'Button', href: '/button' },
     { text: 'Forms', href: '/forms' }

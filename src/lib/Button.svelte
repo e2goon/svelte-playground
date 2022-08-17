@@ -43,9 +43,9 @@
     inline-flex
     flex-row
     items-center
+    justify-center
     align-middle
     no-underline
-    leading-none
     whitespace-nowrap
     outline-none
     space-x-1
@@ -58,17 +58,19 @@
   {...attrs}
   class={`
     ${base}
-    py-1
+    py-0.5
     px-2
     border-2
     border-black
     rounded-md
     shadow-deep-md
-    hover:shadow-deep-sm
-    focus:border-blue-600
-    focus:shadow-blue-600
-    visited:text-indigo-600
-    active:scale-95
+    transition-shadow
+    duration-75
+    focus:ring-2
+    focus:ring-yellow-400/75
+    active:shadow-deep-sm
+    active:translate-x-px
+    active:translate-y-px
   `}
 >
   <slot name="left" />
