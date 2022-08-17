@@ -66,8 +66,10 @@
     shadow-deep-md
     transition-shadow
     duration-75
+    font-bold
+    bg-amber-50
     focus:ring-2
-    focus:ring-yellow-400/75
+    focus:ring-amber-400/75
     active:shadow-deep-sm
     active:translate-x-px
     active:translate-y-px
