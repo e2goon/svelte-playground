@@ -9,6 +9,6 @@
 
   <details>
     <summary class="cursor-pointer">{$page.error?.message}</summary>
-    <pre><code>{JSON.stringify($page.error?.stack, null, 2).replace(/\\n/g, '\n')}</code></pre>
+    <pre><code>{JSON.stringify($page.error, null, 2).replace(/\\n/g, '\n')}</code></pre>
   </details>
 </main>
